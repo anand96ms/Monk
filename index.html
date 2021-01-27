@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='shortcut icon' type='image/x-icon' href='./assets/images/favicon.ico' />
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body  class="bg fade">
+    <div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <div class="message-left">
+        <p id="msgLeft"></p>
+        </div>
+        <div class="message-right">
+        <p id="msgRight"></p>
+        </div>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div class="footer">
+      <div class="pagination">
+        <span class="mySpan" id="#1id" onclick="currentSlide(1)">&laquo;</span>
+        <span class="mySpan" id="2" onclick="currentSlide(2)">1</span>
+        <span class="mySpan" onclick="currentSlide(3)">2</span>
+        <span class="mySpan" onclick="currentSlide(4)">3</span>
+        <span class="mySpan" onclick="currentSlide(5)">4</span>
+        <span class="mySpan" onclick="currentSlide(6)">5</span>
+        <span class="mySpan" onclick="currentSlide(7)">6</span>
+        <span class="mySpan" onclick="currentSlide(8)">7</span>
+        <span class="mySpan" onclick="currentSlide(9)">8</span>
+        <span class="mySpan" onclick="currentSlide(10)">9</span>
+        <span class="mySpan" onclick="currentSlide(11)">&raquo;</span>
+      </div>
+    </div>
+    <div class='logo'>
+      <img src="./assets/images/logo.svg">
+    </div>
+    <script src="./monk.js"></script>
+  </body>
+</html>
