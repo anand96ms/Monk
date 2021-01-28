@@ -114,6 +114,8 @@ html {
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 400px) {
     .prev, .next, {font-size: 11px}
+    .message-left, .message-right{font-size: 20px}
+    .pagination span {padding: 1px 5px;}
 }
